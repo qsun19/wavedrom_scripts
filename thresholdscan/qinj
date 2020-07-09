@@ -4,7 +4,7 @@
   { name: '40MHz Clock',          wave: 'l.h.l.h.l.h.l.h.l.h.l|.h.l.h.l.h.l.h.l.h.', },
   { name: 'QInj Pulse',           wave: 'l.h.......l.......h..|lh.......l.......zz'},
   { name: 'Discri. Pulse',        wave: '0.=0..............=0.|.=0..............xx',  data:["p0", "p1", "p8195"]},
-  { name: 'Extented Discri. Pul', wave: '0.=.......0.......=..|0=.......0.......xx',  data:["extented p0", "extended p1", "extended p8195"]},
+  { name: 'Extented Discri. Pul', wave: '0.=.........0.....=..|0=.........0.....xx',  data:["extented p0", "extended p1", "extended p8195"]},
   { name: 'Sampling Pulse',       wave: '0.....1...0..........|.....1...0.......xx', },
   { name: 'Accumulator Reg',      wave: '=.....=..............|=....=...........=.', data:["0", "Sum p0", "Sum p0...p8194", "Sum p0...p8195", "0"]}
   ]}
