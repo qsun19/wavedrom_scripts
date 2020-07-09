@@ -1,0 +1,6 @@
+{ signal: [
+  { name: '40MHz CLK Index',      wave: 'x.=...=...=...=..|.=...=...x.', data: ["0","1", "2", "3", "32766", "32767"]},
+  { name: '40MHz Clock',          wave: 'l.h.l.h.l.h.l.h.l|.h.l.h.l.h.' },
+  { name: 'Discri. Pulse',        wave: 'x................|...........' },
+  { name: 'Accumulator Reg',      wave: '=.=...=...=...=..|.=...=...=.', data:["0", "Sum 0", "Sum 1", "Sum2", "Sum3", "Sum32766","Sum32767", "0"]}
+  ]}
