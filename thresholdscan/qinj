@@ -1,10 +1,10 @@
 { signal: [
   { name: '40MHz CLK Index',      wave: 'x.3...4...5...6...3..|.3...4...5...6...x.', data: ["0", "1", "2", "3", "4", "32764", "32765", "32766", "32767"]},
-  { name: 'QInj Pulse Index',     wave: 'x.=...............=..|.=...............x.',data:["0", "1", "8195"]},
+  { name: 'QInj Pulse Index',     wave: 'x.=...............=..|.=...............x.',data:["0", "1", "8191"]},
   { name: '40MHz Clock',          wave: 'l.h.l.h.l.h.l.h.l.h.l|.h.l.h.l.h.l.h.l.h.', },
   { name: 'QInj Pulse',           wave: 'l.h.......l.......h..|lh.......l.......zz'},
-  { name: 'Discri. Pulse',        wave: '0.=0..............=0.|.=0..............xx',  data:["p0", "p1", "p8195"]},
-  { name: 'Extented Discri. Pul', wave: '0.=.........0.....=..|0=.........0.....xx',  data:["extented p0", "extended p1", "extended p8195"]},
+  { name: 'Discri. Pulse',        wave: '0.=0..............=0.|.=0..............xx',  data:["p0", "p1", "p8191"]},
+  { name: 'Extented Discri. Pul', wave: '0.=.........0.....=..|0=.........0.....xx',  data:["extented p0", "extended p1", "extended p8191"]},
   { name: 'Sampling Pulse',       wave: '0.....1.......0......|.....1.......0...xx', },
-  { name: 'Accumulator Reg',      wave: '=.....=..............|=....=...........=.', data:["0", "Sum p0", "Sum p0...p8194", "Sum p0...p8195", "0"]}
+  { name: 'Accumulator Reg',      wave: '=.....=..............|=....=...........=.', data:["0", "Sum p0", "Sum p0...p8190", "Sum p0...p8191", "0"]}
   ]}
