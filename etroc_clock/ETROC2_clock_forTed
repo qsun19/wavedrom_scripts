@@ -1,0 +1,14 @@
+{ signal: [
+  { name: 'LHC Clock', wave: '1..0.......1.......0...'},
+  { name: 'ETROC2 40MHz Clock', wave: '1...0.......1.......0..', node:'....r.'},
+  { name: 'ETROC2 320MHz Clock', wave: '10101010101010101010101'},
+  { name: 'TDC Clock', wave: '1....0.......1.......0.',  node: '.....a........' },
+  { name: 'TDC Ref Strobe', wave: '0............1010......',  node: '.............b.c..' },
+  { name: 'TDC Input', wave: '0........1.......0.....', node:'.........l.......t.....'},
+  { name: 'Readout Clock', wave: '1....0.......1.......0.',  node: '................' }
+  ],
+  edge: [
+    'r~->a T1:phase adjusted by the phase shifter', 'a<~>b T2: Measurement window', 'b<~>c T3: CAL',
+    'l<~>b TOA','l<~>t TOT'
+  ]
+}
