@@ -1,0 +1,16 @@
+{ signal: [
+  { name: 'TDC Clock', wave: '1....0.......1.......0.',node:'.....s'},
+  { name: 'TDC Ref Strobe(0b00000011)', wave: '0............1010......',node:'.............a.b'},
+  { name: 'TDC Ref Strobe(0b00000101)', wave: '0............10..10....',node:'.............c...d'},
+  { name: 'TDC Ref Strobe(0b00001001)', wave: '0............10....10..',node:'.............e.....f'},
+  { name: 'TDC Ref Strobe(0b01100000)', wave: '0......1010............',node:'.......g.h'},
+  { name: 'TDC Ref Strobe(0b11000000)', wave: '0........1010..........',node:'.........i.j'},
+  { name: 'TDC Ref Strobe(0b01000010)', wave: '0........10....10......',node:'.........k.....l'},
+  ],
+  edge: [
+    'a<~>b 3.125 ns', 'c<~>d 6.25 ns',
+    'e<~>f 9.375 ns', 'g<~>h 3.125 ns', 'i<~>j 3.125 ns', 'k<~>l 9.375 ns',
+    's<~>a Tm=12.5 ns','s<~>c Tm=12.5 ns',
+    's<~>e Tm=12.5 ns', 's<~>g Tm=3.125 ns', 's<~>i Tm=6.25 ns', 's<~>k Tm=6.25 ns',
+  ]
+}
