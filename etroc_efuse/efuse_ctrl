@@ -1,0 +1,10 @@
+{signal: [
+  {name: 'Clock', wave: 'p|p|p|p|p|p|p|p|p|p|p|p|p|p|p|'},
+  {name: 'EFuse_EnClk', wave: '1.............................'},
+  {name: 'EFuse_Rstn', wave: '1.0.1.........................'},
+  {name: 'EFuse_Prog[31:0]', wave: '=.............................', data:['0xaaaa5555']},
+  {name: 'EFuse_Start', wave: '0....Hl.......................'},
+  {name: 'EFuse_TCKHP[3:0]', wave: '=.............................',data:['0x4']},
+  {name: 'EFuse_Mode[1:0]', wave: '=.......................=.....',data:['0x01', '0x02']},
+  {name: 'EFuseQ[31:0]', wave: 'x..........................=..', data:['0xaaaa5555']},
+]}
