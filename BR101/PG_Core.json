@@ -1,5 +1,6 @@
 {signal: [
   {name: 'Phase', wave: '3....4....568..73..', data:['Standby','Charging','P1','P2','Pacing', 'P3','Standby']},
+  [ 'Internal', 
   {name: 'S1_2V', wave: '0..........1....0..'},
   {name: 'S1B_2V', wave: '1..........2....1..'},
   {name: 'S2_5V', wave: '0....1....0........'},
@@ -7,4 +8,13 @@
   {name: 'S3_5V', wave: '0....1....0.1..0...'},
   {name: 'S3B_5V', wave: '1....0....1.0..1...'},
   {name: 'S4_5V', wave: '0....1.....2....0..'}
-],}
+  ],
+['external',
+ {name: 'CLK', wave:'p..................'},
+ {name: 'PG_CMD', wave:'0...1.0............'},
+ {name: 'PG_MODE', wave:'0..1...0...........'},
+ {name: 'PG_WIDTH[3:0]', wave:'x..2...x...........', data:['WIDTH']},
+ {name: 'PG_AMPL[5:0]', wave:'x..2...x...........', data:['AMPL']},
+ {name: 'VBAT_Dig[9:0]', wave:'x..2...x...........', data:['VBAT_Dig']},
+  ]
+]}
